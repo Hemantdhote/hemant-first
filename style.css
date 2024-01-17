@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100vh;
+    width: 100vw;
+    background-color: skyblue;
+}
+#main #top{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(80, 79, 79);
+    gap: 10px;
+    position:relative ;
+   
+}
+#main #top #container{
+    height: 300px;
+    width: 70%;
+    bottom: 0;
+    position: absolute;
+    margin-left: 15%;
+    display: flex;
+    gap: 50px;
+
+}
+#main #bottum{
+    height: 60%;
+    width: 100%;
+    background-color: #d3d2d2;
+    position: relative;
+}
+#main #bottum #container1{
+    height: 300px;
+    width: 70%;
+    top: 0;
+    position: absolute;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+#container1 .box1{
+    height: 115%;
+    width: calc(100% / 3);
+    background-color: #fff;
+    gap: 10px;
+    position: relative;
+}
+#container .box{
+    height: 100%;
+    width: calc(100% / 3);
+    background-color: red;
+    gap: 10px;
+    position: relative;
+}
+.box1:nth-child(1) h3{
+    margin-left: 60px;
+    margin-top: 50px;
+    opacity: 0.5;
+    
+}
+.box1:nth-child(2) h3{
+    margin-left: 140px;
+    margin-top: 50px;
+    opacity: 0.5;
+    
+}
+.box1:nth-child(3) h3{
+    margin-left: 130px;
+    margin-top: 50px;
+    opacity: 0.5;
+    
+}
+
+
+
+.box1:nth-child(1) h1{
+    margin-left: 30px;
+    margin-top: 20px;
+
+    
+}
+.box1:nth-child(2) h1{
+    margin-left:13px;
+    margin-top: 20px;
+    font-size: 28px;
+    
+    
+}
+.box1:nth-child(3) h1{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 900;
+    
+}
+.box1 p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.box1 button{
+    margin-left: 90px;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 10px 10px;
+    border-radius: 30px;
+    border: none;
+}
+.box1:nth-child(1) button{
+    background-color: #eb6095 ;
+    font-weight: 900;
+    color: #fff;
+}
+
+.box1:nth-child(2) button{
+    background-color: #dd6e7d;
+    font-weight: 900;
+
+    color: #fff;
+}
+
+.box1:nth-child(3) button{
+    background-color: rgb(221, 221, 251);
+    color: #fff;
+    font-weight: 900;
+
+}
+
+#top #container .box img{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%,-53%);
+}
+#container .box:nth-child(1) img{
+    height: 470px;
+    position: absolute;
+    z-index: 99;
+
+}
+#container .box:nth-child(1){
+    background-color:#eb6095    ;
+}
+#container .box:nth-child(2){
+    background-color:#dd6e7d;
+    position: relative;
+}
+#container .box:nth-child(3){
+    background-color:rgb(189, 189, 221);
+}
+#container .box:nth-child(2) img{
+    height: 510px;
+    margin-top: 20px;
+    position: absolute;
+    z-index: 99;
+    margin-left: 20px;
+   
+}
+
+#container .box:nth-child(3) img{
+    height: 410px;
+    margin-top: 20px;
+    position: absolute;
+    z-index: 99;
+    margin-left: 30px;
+
+}
